@@ -5,7 +5,6 @@ require_once __DIR__ . '/db/db.php';
 require_once __DIR__ . '/model/Production.php';
 
 
-
 die;
 
 ?>

@@ -2,10 +2,11 @@
 require_once __DIR__ . '/model/Movie.php';
 require_once __DIR__ . '/model/Media.php';
 require_once __DIR__ . '/db/db.php';
+require_once __DIR__ . '/model/Production.php';
 
 
 
-
+die;
 
 ?>
 

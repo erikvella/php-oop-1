@@ -5,7 +5,7 @@ class Movie extends Production{
  public $running_time ;
  public $published_year;
 
- public function __construct(int $_running_time , int $_published_year , string $title , string $genere , array $attori ,  Media $_imgName = null){
+ public function __construct(string $_title , string $_genere , array $_attori , Media $_imgName = null , int $_running_time , int $_published_year){
   
   $this->running_time= $_running_time;
   $this->published_year = $_published_year;
@@ -18,4 +18,4 @@ class Movie extends Production{
  
  
  
-}
+};

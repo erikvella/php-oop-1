@@ -7,7 +7,7 @@ class SerieTv extends Production{
   public $number_of_episodes;
   public $number_of_seasons;
 
-  public function __construct(int $aired_from_year , int $aired_to_year , int $number_of_episodes , int $number_of_seasons, string $title , string $genere , array $attori ,  Media $_imgName = null){
+  public function __construct( string $_title , string $_genere , array $_attori ,  Media $_imgName = null , int $_aired_from_year , int $_aired_to_year , int $_number_of_episodes , int $_number_of_seasons){
 
     $this->aired_from_year = $_aired_from_year;
     $this->aired_to_year = $_aired_to_year;
@@ -17,4 +17,4 @@ class SerieTv extends Production{
     parent::__construct($_title , $_genere , $_attori , $_imgName);
     
   }
-}
+};

@@ -6,7 +6,7 @@ class Production {
   public $attori;
   public $image;
 
-  public function __construct (string $title , string $genere , array $attori ,  Media $_imgName = null){
+  public function __construct (string $_title , string $_genere , array $_attori ,  Media $_imgName = null){
     $this->title = $_title;
     $this->genere = $_genere;
     $this->attori = $_attori;

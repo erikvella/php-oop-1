@@ -34,3 +34,9 @@ p{
 img{
  max-width: 300px;
 }
+
+.alert{
+  background-color: rgba(255, 0, 0, 0.402);
+  color: rgb(71, 13, 13);
+  margin: 0 auto;
+}

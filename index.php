@@ -1,13 +1,16 @@
 <?php 
+require_once __DIR__ . '/traits/annoPubblicazione.php';
 require_once __DIR__ . '/model/Production.php';
 require_once __DIR__ . '/model/Movie.php';
 require_once __DIR__ . '/model/SerieTv.php';
 require_once __DIR__ . '/model/Media.php';
 require_once __DIR__ . '/db/db.php';
 
+$matrix = new Movie ('Matrix' , 'Thriller' , ['Keanu Reeves' , 'Laurence Fishburne' , 'Hugo Weaving' , 'Carrie-Anne Moss'] , new Media('matrix.jpg') , 136 , 1999);
 
+var_dump($matrix);
 
-
+die;
 
 ?>
 

@@ -1,9 +1,11 @@
 <?php 
 
 class Movie extends Production{
+
+  use annoPubblicazione;
  
  public $running_time ;
- public $published_year;
+//  public $published_year;
 
  public function __construct(string $_title , string $_genere , array $_attori , Media $_imgName = null , int $_running_time , int $_published_year){
   
